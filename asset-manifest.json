@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LockInSchool/static/css/main.cdf0ccd7.css",
+    "main.js": "/LockInSchool/static/js/main.480a4aa6.js",
+    "index.html": "/LockInSchool/index.html",
+    "main.cdf0ccd7.css.map": "/LockInSchool/static/css/main.cdf0ccd7.css.map",
+    "main.480a4aa6.js.map": "/LockInSchool/static/js/main.480a4aa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdf0ccd7.css",
+    "static/js/main.480a4aa6.js"
+  ]
+}
