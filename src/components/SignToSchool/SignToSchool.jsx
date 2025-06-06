@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 function SignToSchool() {
     return (
         <section className={styles.signSection}>
-            <img src="./dog.jpg" alt="dogImg"/> 
+            <img src="dog.jpg" alt="dogImg"/> 
             <div style={{display: "flex", flexDirection: "column", maxWidth: "900px"}}>
                 <div>
                     <strong style={{color: "#1b3eb5", fontSize: "60px"}}>Ще кілька кліків</strong> 
