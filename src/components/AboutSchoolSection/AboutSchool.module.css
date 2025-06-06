@@ -1,0 +1,29 @@
+.aboutSchool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.aboutSchool h1 {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+.description p {
+    margin: 0;
+}
+
+.right-side {
+    margin-top: 25px;
+}

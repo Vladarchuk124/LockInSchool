@@ -1,0 +1,15 @@
+.signSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    gap: 80px;
+}
+
+.signSection img {
+    height: 800px;
+    border-radius: 15px;
+}
+
+

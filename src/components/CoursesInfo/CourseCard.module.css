@@ -1,0 +1,83 @@
+.courseCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid black;
+    min-width: 30%;
+    border-radius: 36px;
+    padding: 0 0 25px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.courseCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+.courseCard h3 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+nav {
+    padding-right: 15px;
+}
+
+.courseName {
+  display: flex;
+  flex-direction: row;
+  background-color: #3a6ef8;
+  border: 2px solid black;
+  border-top: 0;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 36px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.courseName h1 {
+  margin: 0;
+}
+
+.courseName img {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 70px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.durationSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.durationSection p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.emojiClock {
+  height: 60px;
+}
+
+.durationText {
+  display: flex;
+  flex-direction: column;
+}
+
+.durationText h3 {
+  margin: 0;
+}

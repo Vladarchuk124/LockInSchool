@@ -1,0 +1,15 @@
+.coursesInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+}
+
+.coursesCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%;
+  gap: 35px;
+}

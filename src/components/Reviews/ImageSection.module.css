@@ -1,0 +1,30 @@
+.upperEmoji {
+    position: absolute;
+    height: 70px;
+    left: 480px;
+    top: -14px;
+    transform: rotate(5deg);
+}
+
+.lowerEmoji {
+    position: absolute;
+    height: 100px;
+    right: -25px;
+    top: -20px;
+}
+
+.differentEmoji {
+    position: absolute;
+    height: 100px;
+    right: -25px;
+    top: -35px;
+}
+
+.imgSection {
+    position: relative;
+    transition: 0.3s transform ease;
+}
+
+.imgSection:hover {
+    transform: scale(1.03);
+}

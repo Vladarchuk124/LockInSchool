@@ -1,0 +1,46 @@
+.priceCard {
+    position: relative;
+    background-color: white;
+    border: 2px solid #3a6ef8;
+    border-radius: 36px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+
+.priceCard p {
+    font-size: larger;
+}
+
+.priceCard h3 {
+    font-size: 25px;
+}
+
+.priceCard h2 {
+    text-decoration: line-through;
+    color: grey;
+    margin: 0;
+}
+
+.eight h2 {
+    color: white;
+}
+
+.pinImg {
+    position: absolute;
+    top: -20px;
+    left: 210px;
+    height: 60px;
+    transform: rotate(-10deg);
+}
+
+.Discount {
+    position: absolute;
+    color: white;
+    background-color: #d81c1d;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 10px 6px 10px;
+    top: -15px;
+    left: -20px;
+    transform: rotate(-20deg);
+}

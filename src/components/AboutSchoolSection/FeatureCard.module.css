@@ -1,0 +1,113 @@
+.featureCard {
+    position: relative;
+    padding: 20px 20px 20px 60px;
+    border-radius: 26px;
+    margin: 10px;
+    margin-bottom: 45px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.right:hover {
+    transform: scale(1.03) rotate(3deg);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+.left:hover {
+    transform: scale(1.03) rotate(-3deg);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+
+
+.featureCard.blue {
+    background-color: #3a6ef8;
+    width: 400px;
+}
+
+.featureCard.blue.right {
+    padding-left: 20px;
+    width: 370px;
+    margin-left: 60px;
+}
+
+
+
+.featureCard.grey {
+    background-color: #47698d;
+}
+
+.featureCard.grey.right {
+    padding-left: 20px;
+    width: 400px;
+}
+
+.featureCard.grey.left {
+    margin-left: 10px;
+    padding-left: 20px;
+    width: 500px;
+}
+
+
+
+.featureCard.darkblue {
+    background-color: #17142b;
+}
+
+.featureCard.darkblue.right {
+    width: 395px;
+}
+
+.featureCard.darkblue.left {
+    margin-left: 220px;
+    margin-right: 60px;
+    padding-left: 20px;
+}
+
+.emoji-icon1 {
+    position: absolute;
+    top: -80px;
+    left: -35px;
+    width: 120px;
+    height: auto;
+}
+
+.emoji-icon2 {
+    position: absolute;
+    top: -75px;
+    left: 320px;
+    width: 100px;
+    transform: rotate(-20deg);
+}
+
+.emoji-icon3 {
+    position: absolute;
+    top: -120px;
+    left: -60px;
+    width: 130px;
+    transform: rotate(-20deg);
+}
+
+.emoji-icon4 {
+    position: absolute;
+    top: -100px;
+    left: 370px;
+    width: 130px;
+    transform: rotate(20deg);
+}
+
+.emoji-icon5 {
+    position: absolute;
+    top: -60px;
+    left: 330px;
+    width: 130px;
+}
+
+.emoji-icon6 {
+    position: absolute;
+    top: 40px;
+    left: -40px;
+    width: 130px;
+}
