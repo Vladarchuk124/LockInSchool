@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LockInSchool/static/css/main.cdf0ccd7.css",
-    "main.js": "/LockInSchool/static/js/main.fbc4310c.js",
+    "main.js": "/LockInSchool/static/js/main.aa64a70f.js",
     "index.html": "/LockInSchool/index.html",
     "main.cdf0ccd7.css.map": "/LockInSchool/static/css/main.cdf0ccd7.css.map",
-    "main.fbc4310c.js.map": "/LockInSchool/static/js/main.fbc4310c.js.map"
+    "main.aa64a70f.js.map": "/LockInSchool/static/js/main.aa64a70f.js.map"
   },
   "entrypoints": [
     "static/css/main.cdf0ccd7.css",
-    "static/js/main.fbc4310c.js"
+    "static/js/main.aa64a70f.js"
   ]
 }
