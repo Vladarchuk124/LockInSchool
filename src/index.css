@@ -20,10 +20,10 @@ code {
 
 @font-face {
   font-family: Montserrat;
-  src: url("../public/Montserrat-VariableFont_wght.ttf");
+  src: url("../public/fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: BodyTextLarge;
-  src: url("../public/body-text-large.ttf");
+  src: url("../public/fonts/body-text-large.ttf");
 }
