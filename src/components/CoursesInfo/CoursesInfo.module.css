@@ -4,12 +4,18 @@
   align-items: center;
   justify-content: center;
   min-height: 100dvh;
+  padding: 0 3%;
 }
 
 .coursesCards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 15%;
   gap: 35px;
+}
+
+@media screen and (max-width: 1090px) {
+  .coursesCards {
+    flex-direction: column;
+  }  
 }

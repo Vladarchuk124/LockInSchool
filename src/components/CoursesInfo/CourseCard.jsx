@@ -17,7 +17,7 @@ function CourseCard({planName, imgSource, planNameText, titleText, item1, item2,
                 </ul>
             </nav>
             <div className={styles.durationSection}>
-                <img src="./emoji/clock.png" alt="emoji" className={styles.emojiClock}></img>
+                <img src="LockInSchool/emoji/clock.png" alt="emoji" className={styles.emojiClock}></img>
                 <div className={styles.durationText}>
                     <h3>Тривалість</h3>
                     <p>{durationTime}</p>

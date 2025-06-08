@@ -3,12 +3,14 @@
     background-color: white;
     border: 2px solid #3a6ef8;
     border-radius: 36px;
+    max-width: 220px;
     text-align: center;
     padding: 30px 10px 20px 10px;
 }
 
 .priceCard p {
     font-size: larger;
+    margin: 10px 0 65px;
 }
 
 .priceCard h3 {
@@ -37,10 +39,19 @@
     position: absolute;
     color: white;
     background-color: #d81c1d;
+    width: 50px;
     font-weight: bold;
     font-size: 18px;
     padding: 6px 10px 6px 10px;
     top: -15px;
     left: -20px;
     transform: rotate(-20deg);
+}
+
+
+@media screen and (max-width: 980px) {
+    .priceCard {
+        margin-bottom: 70px;
+    }
+
 }

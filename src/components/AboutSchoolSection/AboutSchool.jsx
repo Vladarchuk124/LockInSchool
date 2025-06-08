@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 function FeaturesSection() {
     return (
         <>
-            <div className="left-side">
+            <div className={styles.leftSide}>
                 <FeatureCard
                     cardColor="blue"
                     cardSide="left"
@@ -20,8 +20,7 @@ function FeaturesSection() {
                     imgSource="./emoji/emoji2.png"
                     imgClass="emoji-icon2"
                     titleText="Гнучкий онлайн формат:"
-                    defaultText="завгодно, де-завгодно та з ким-завгодно."
-                    extraText="коли-"
+                    defaultText="коли-завгодно, де-завгодно та з ким-завгодно."
                 />
 
                 <FeatureCard
@@ -30,20 +29,18 @@ function FeaturesSection() {
                     imgSource="./emoji/emoji3.png"
                     imgClass="emoji-icon3"
                     titleText="Персональний менеджер,"
-                    defaultText="підкаже як організувати навчальний процес та вирішить усі твої запити."
-                    extraText="що підбере тобі викладача,"
+                    defaultText="що підбере тобі викладача, підкаже як організувати навчальний процес та вирішить усі твої запити."
                 />
             </div>
 
-            <div className="right-side">
+            <div className={styles.rightSide}>
                 <FeatureCard
                     cardColor="grey"
                     cardSide="right"
                     imgSource="./emoji/emoji4.png"
                     imgClass="emoji-icon4"
                     titleText="Телеграм-бот"
-                    defaultText="нагадає про уроки…"
-                    extraText="що відслідковує твої оплати,"
+                    defaultText="що відслідковує твої оплати, нагадає про уроки…"
                 />
 
                 <FeatureCard
@@ -52,8 +49,7 @@ function FeaturesSection() {
                     imgSource="./emoji/emoji5.png"
                     imgClass="emoji-icon5"
                     titleText="Навчання в просторі від Google:"
-                    defaultText="домашки та усі матеріали в одному місці."
-                    extraText="уроки,"
+                    defaultText="уроки, домашки та усі матеріали в одному місці."
                 />
 
                 <FeatureCard
@@ -62,8 +58,7 @@ function FeaturesSection() {
                     imgSource="./emoji/emoji6.png"
                     imgClass="emoji-icon6"
                     titleText="Продумана програма,"
-                    defaultText="і зробить твоє навчання максимально цікавим та продуктивним."
-                    extraText="що гарантує результат"
+                    defaultText="що гарантує результат і зробить твоє навчання максимально цікавим та продуктивним."
                 />
             </div>
         </>

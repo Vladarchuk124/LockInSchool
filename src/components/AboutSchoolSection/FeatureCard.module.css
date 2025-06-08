@@ -4,6 +4,7 @@
     border-radius: 26px;
     margin: 10px;
     margin-bottom: 45px;
+    font-family: Arial, Helvetica, sans-serif;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -64,6 +65,7 @@
     margin-left: 220px;
     margin-right: 60px;
     padding-left: 20px;
+    max-width: 380px;
 }
 
 .emoji-icon1 {
@@ -110,4 +112,154 @@
     top: 40px;
     left: -40px;
     width: 130px;
+}
+
+
+@media screen and (max-width: 1375px) {
+    .featureCard.darkblue.left {
+        margin: 0 30px 70px 30px;
+    }
+
+    .emoji-icon2 {
+        top: 20px;
+        left: 310px;
+        width: 100px;
+        transform: rotate(20deg);
+    }
+
+    .featureCard.darkblue.right {
+        margin-left: 70px;
+    }
+
+    .emoji-icon4 {
+        top: 10px;
+        left: 270px;
+        width: 110px;
+        transform: rotate(20deg);
+    }
+
+    .emoji-icon5 {
+        top: -60px;
+        left: 260px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 1315px) {
+    .featureCard {
+        font-size: 15px;
+    }
+
+    .featureCard.blue.left {
+        width: 700px;
+    }
+
+    .featureCard.darkblue.left {
+        margin-left: 400px;
+        margin-bottom: 40px;
+        min-width: 500px;
+    }
+
+    .emoji-icon2 {
+        left: 400px;
+    }
+
+    .featureCard.grey.left {
+        margin-left: 150px;
+    }
+
+
+    .featureCard.grey.right {
+        width: 400px;
+        margin-left: 430px;
+    }
+
+    .emoji-icon4 {
+        top: -75px;
+        left: 360px;
+    }
+
+    .featureCard.blue.right {
+        width: 600px;
+        padding-right: 60px;
+        margin-left: 60px;
+    }
+
+    .emoji-icon5 {
+        top: -10px;
+        left: 590px;
+    }
+
+    .featureCard.darkblue.right {
+        width: 650px;
+        align-self: center;
+    }
+
+    .emoji-icon6 {
+        top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .featureCard {
+        align-self: center;
+        margin: 0;
+        width: 300px;
+    }
+
+    .featureCard.blue.left {
+        width: 300px;
+        margin-bottom: 70px;
+    }
+
+    .featureCard.darkblue.left {
+        width: 300px;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .featureCard.grey.left {
+        margin: 0;
+        margin-bottom: 70px;
+        width: 300px;
+    }
+
+    .emoji-icon3 {
+        height: 170px;
+        width: 130px;
+        top: -100px;
+    }
+
+    .featureCard.grey.right {
+        width: 300px;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .emoji-icon4 {
+        left: 300px;
+    }
+
+    .featureCard.blue.right {
+        width: 450px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 45px;
+        margin-bottom: 70px;
+    }
+
+    .emoji-icon5 {
+        top: 10px;
+        left: -60px;
+    }
+
+    .featureCard.darkblue.right {
+        width: 370px;
+    }
+
+    .emoji-icon6 {
+        top: 10px;
+    }
+
 }

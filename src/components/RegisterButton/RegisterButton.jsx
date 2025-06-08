@@ -2,7 +2,9 @@ import styles from "./RegisterButton.module.css";
 
 function RegisterButton() {
     return (
-        <button className={styles.registerButton}>Записатися</button>
+        <a href="#signpage">
+            <button className={styles.registerButton}>Записатися</button>
+        </a>
     );
 }
 

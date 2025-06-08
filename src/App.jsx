@@ -19,7 +19,7 @@ function App() {
       <div id="courses"><CoursesInfo /></div>
       <div id="prices"><PricesInfo /></div>
       <OtherPlansPrices />
-      <SignToSchool />
+      <div id="signpage"><SignToSchool /></div>
       <div id="reviews"><Reviews /></div>
       <div id="faq"><FAQ /></div>
       <AskQuestion />

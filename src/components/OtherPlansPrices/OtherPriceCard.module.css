@@ -1,0 +1,52 @@
+.otherPriceCard {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+    border: 2px solid #3a6ef8;
+    border-radius: 36px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 20px 50px;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.pinImg {
+    position: absolute;
+    top: -30px;
+    left: 620px;
+    height: 70px;
+    transform: rotate(-10deg);
+}
+
+@media screen and (max-width: 760px) {
+    .otherPriceCard {
+        padding: 20px 20px;
+    }
+
+    .pinImg {
+        left: 560px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .otherPriceCard {
+        width: 225px;
+        flex-direction: column;
+        padding: 0 5px 20px;
+        gap: 35px;
+    }
+
+    .otherPriceCard h2 {
+        margin: 0;
+        margin-top: 25px;
+    }
+
+    .pinImg {
+        top: -20px;
+        left: 206px;
+        height: 60px;
+    }
+}
