@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f6f9ff;
+  width: 100%;
 }
 
 * {
@@ -26,4 +27,17 @@ code {
 @font-face {
   font-family: BodyTextLarge;
   src: url("../public/fonts/body-text-large.ttf");
+}
+
+@font-face {
+  font-family: BodyGrotesqueLarge;
+  src: url("../public/fonts/body-grotesque-large-trial-bold.ttf");
+}
+
+h1, h2, h3 {
+  font-family: BodyTextLarge;
+}
+
+p, a {
+  font-family: Montserrat;
 }
