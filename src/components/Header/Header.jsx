@@ -17,7 +17,7 @@ function Header() {
 
     const toggleMenu = () => {
         if (isMobile) setMenuOpen((prev) => !prev);
-    };
+    }; 
 
     return (
         <header>
