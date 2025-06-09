@@ -1,72 +1,53 @@
+import styles from "./Reviews.module.css"
 import ImageSection from "./ImageSection";
 
 function Reviews() {
-    const textEmojiStyle = {
-        position: "absolute",
-        height: "300px",
-        right: "250px",
-        top: "-30px",
-        transform: "rotate(20deg)"
-    }
-
-    const upperPartStyle = {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
-        alignItems: "center",
-        position: "relative",
-        marginBottom: "30px"
-    }
-
-    const lowerPartStyle = {
-        display: "flex",
-        flexDirection: "row",
-        gap: "50px",
-        justifyContent: "center",
-        alignItems: "center",
-        position: "relative"
-    }
-
     return (
         <div style={{ minHeight: "100dvh" }}>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "center", position: "relative" }}>
-                <h1 style={{ color: "#1b3eb5", fontSize: "100px" }}>Відгуки наших учнів</h1>
-                <img src="./emoji/emoji4.png" alt="emoji" style={textEmojiStyle} />
+            <div className={styles.textPart}>
+                <h1>Відгуки наших учнів</h1>
+                <img src="LockInSchool/emoji/emoji4.png" alt="emoji" className={styles.textEmoji} />
             </div>
-            <div style={upperPartStyle}>
+            <div className={styles.upperPart}>
+                <ImageSection
+                    emojiSource="LockInSchool/emoji/starEyes.png"
+                    reviewSource="LockInSchool/Reviews/rev1.png"
+                    emojiStyle="emojiTanya"
+                    reviewStyle="reviewTanya"
+                />
+                <ImageSection
+                    emojiSource="LockInSchool/emoji/group.png"
+                    reviewSource="LockInSchool/Reviews/rev2.png"
+                    emojiStyle="emojiKatya"
+                    reviewStyle="reviewKatya"
+                />
+                <ImageSection
+                    reviewSource="LockInSchool/Reviews/rev3.png"
+                    emojiStyle="emojiHrist"
+                    reviewStyle="reviewHrist"
+                />
+            </div>
+            <div className={styles.lowerPart}>
+                <ImageSection
+                    emojiSource="LockInSchool/emoji/rocket.png"
+                    reviewSource="LockInSchool/Reviews/rev4.png"
+                    emojiStyle="emojiLisa"
+                    reviewStyle="reviewLisa"
+                />
+                <ImageSection
+                    emojiSource="LockInSchool/emoji/emoji5.png"
+                    reviewSource="LockInSchool/Reviews/rev5.png"
+                    emojiStyle="emojiNastya"
+                    reviewStyle="reviewNastya"
+                />
+                <ImageSection
+                    emojiSource="LockInSchool/emoji/emoji7.png"
+                    reviewSource="LockInSchool/Reviews/rev6.png"
+                    emojiStyle="emojiMira"
+                    reviewStyle="reviewMira"
+                />
+            </div>
 
-                <ImageSection
-                    emojiSource="./emoji/starEyes.png"
-                    reviewSource="./Reviews/rev1.png"
-                    emojiPos="upperEmoji"
-                />
-                <ImageSection
-                    emojiSource="./emoji/group.png"
-                    reviewSource="./Reviews/rev2.png"
-                    emojiPos="upperEmoji"
-                />
-                <ImageSection
-                    reviewSource="./Reviews/rev3.png"
-                    emojiPos="upperEmoji"
-                />
-            </div>
-            <div style={lowerPartStyle}>
-                <ImageSection
-                    emojiSource="./emoji/rocket.png"
-                    reviewSource="./Reviews/rev4.png"
-                    emojiPos="lowerEmoji"
-                />
-                <ImageSection
-                    emojiSource="./emoji/emoji5.png"
-                    reviewSource="./Reviews/rev5.png"
-                    emojiPos="lowerEmoji"
-                />
-                <ImageSection
-                    emojiSource="./emoji/emoji7.png"
-                    reviewSource="./Reviews/rev6.png"
-                    emojiPos="differentEmoji"
-                />
-            </div>
         </div>
     );
 }

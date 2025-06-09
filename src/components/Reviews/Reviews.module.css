@@ -1,7 +1,57 @@
-.upperPart {
+.textPart {
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
+    color: #1b3eb5;
 }
 
+.textPart h1 {
+    font-family: BodyGrotesqueLarge;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.textEmoji {
+    position: absolute;
+    height: 240px;
+    top: -55px;
+    transform: translateX(590px) rotate(12deg);
+}
+
+
+.upperPart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.lowerPart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1460px) {
+    .textPart h1 {
+        font-size: 55px;
+    }
+
+    .textEmoji {
+        height: 180px;
+        top: -40px;
+        transform: translateX(430px) rotate(12deg);
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .textEmoji {
+        display: none;
+    }
+    .textPart h1 {
+        font-size: 40px;
+    }
+}
