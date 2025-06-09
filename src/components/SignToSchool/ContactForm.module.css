@@ -7,6 +7,12 @@
     margin-top: 20px;
 }
 
+.upperPart {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
 .contactForm label {
     display: flex;
     flex-direction: column;
@@ -55,4 +61,25 @@
     color: white;
     font-size: 35px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    .upperPart {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .contactForm {
+        max-width: fit-content;
+    }
+
+    .contactForm button {
+        font-size: 23px;
+    }
+
+    .contactForm label {
+        margin-bottom: 20px;
+        align-items: center;
+        font-size: 19px;
+    }
 }

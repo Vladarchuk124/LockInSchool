@@ -7,11 +7,32 @@
     gap: 80px;
 }
 
+.signSection p{
+    font-family: BodyGrotesqueLarge;
+    font-size: 45px;
+    font-weight: bold;
+}
+
 .signSection img {
     height: 800px;
     border-radius: 15px;
 }
 
 @media screen and (max-width: 1600px) {
+    .signSection img {
+        display: none;
+    }
 }
 
+
+@media screen and (max-width: 1000px) {
+    .signForm, .textPart {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .signSection p {
+        font-size: 30px;
+    }
+}

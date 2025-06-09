@@ -68,7 +68,7 @@ function ContactForm() {
 
     return (
         <form className={styles.contactForm}>
-            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "30px" }}>
+            <div className={styles.upperPart}>
                 <label>
                     Ім'я:
                     <input

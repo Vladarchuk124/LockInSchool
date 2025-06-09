@@ -7,9 +7,10 @@ function SignToSchool() {
         <section className={styles.signSection}>
             <img src="LockInSchool/dog.jpg" alt="dogImg" />
             <div style={{ display: "flex", flexDirection: "column", maxWidth: "900px" }}>
-                <div>
-                    <strong style={{ color: "#1b3eb5", fontSize: "60px" }}>Ще кілька кліків</strong>
-                    <strong style={{ fontSize: "60px" }}> і буст твоєї англійської гарантовано!</strong>
+                <div className={styles.textPart}>
+                    <p>
+                        <strong style={{ color: "#1b3eb5" }}>Ще кілька кліків </strong><strong> і буст твоєї англійської гарантовано!</strong>
+                    </p>
                 </div>
                 <div className={styles.signForm}>
                     <ContactForm />
