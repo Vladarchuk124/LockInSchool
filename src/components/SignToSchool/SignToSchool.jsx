@@ -5,7 +5,7 @@ function SignToSchool() {
 
     return (
         <section className={styles.signSection}>
-            <img src="LockInSchool/dog.jpg" alt="dogImg" />
+            <img src="./dog.jpg" alt="dogImg" />
             <div style={{ display: "flex", flexDirection: "column", maxWidth: "900px" }}>
                 <div className={styles.textPart}>
                     <p>

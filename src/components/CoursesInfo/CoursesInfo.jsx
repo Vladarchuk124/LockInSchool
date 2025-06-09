@@ -6,7 +6,7 @@ function CoursesCards() {
         <div className={styles.coursesCards}>
             <CourseCard 
                 planName="individual"
-                imgSource="LockInSchool/emoji/solo.png"
+                imgSource=".emoji/solo.png"
                 planNameText="Індивідуальні"
                 titleText="Навчання лише для тебе: фокус на ваші цілі, максимальна увага викадача."
                 item1="Заняття один на один з викладачем, ретельно підібраним спеціально для тебе."
@@ -18,7 +18,7 @@ function CoursesCards() {
 
             <CourseCard 
                 planName="duos"
-                imgSource="LockInSchool/emoji/duo.png"
+                imgSource="./emoji/duo.png"
                 planNameText="Парні"
                 titleText="Ідеальний баланс між індивідуальним підходом і живим спілкуванням."
                 item1="Уроки разом з твоїм другом або ж з партнером твого рівня, якого підберемо тобі ми."
@@ -30,7 +30,7 @@ function CoursesCards() {
 
             <CourseCard 
                 planName="group"
-                imgSource="LockInSchool/emoji/group.png"
+                imgSource="./emoji/group.png"
                 planNameText="Групові"
                 titleText="Динамічне навчання та справжня  розмовна практика."
                 item1="Навчання в невеликих групах зі студентами твого рівня."

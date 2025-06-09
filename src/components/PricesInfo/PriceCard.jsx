@@ -5,7 +5,7 @@ function PriceCard({lessonCount, discount, lessonsNum, lessonPrice, priceWithout
     return (
         <div className={`${styles.priceCard} ${styles[lessonCount]}`}>
             {discount && <div className={styles.Discount}>{discount}</div>}
-            <img src='LockInSchool/emoji/pin.png' alt='emoji' className={styles.pinImg}></img>
+            <img src='./emoji/pin.png' alt='emoji' className={styles.pinImg}></img>
             <h3 style={{fontFamily: "Arial"}}>{lessonsNum} уроків</h3>
             <p>1 заняття - {lessonPrice} UAH</p>
             <h2 style={{fontFamily: "Arial"}}>₴{priceWithoutSale}</h2>

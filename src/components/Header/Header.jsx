@@ -21,7 +21,7 @@ function Header() {
 
     return (
         <header>
-            <img src="ogo.png" alt="header_logo" onClick={toggleMenu} />
+            <img src="logo.png" alt="header_logo" onClick={toggleMenu} />
             <nav className={`${styles.dropdown} ${menuOpen ? styles.show : ''}`}>
                 <ul>
                     <li><a href="#about">Про школу</a></li>
