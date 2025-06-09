@@ -11,7 +11,7 @@
 /*Review styles*/
 
 .reviewTanya {
-    height: 200px;
+    height: 350px;
 }
 
 .emojiTanya {
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 1750px) {
     .reviewTanya {
-        height: 150px;
+        height: 230px;
     }
 
     .reviewKatya {
