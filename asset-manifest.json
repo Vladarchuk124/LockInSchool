@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/LockInSchool/static/css/main.42b5d23c.css",
-    "main.js": "/LockInSchool/static/js/main.c656f84e.js",
+    "main.js": "/LockInSchool/static/js/main.d6d560c0.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/LockInSchool/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
     "static/media/body-grotesque-large-trial-bold.ttf": "/LockInSchool/static/media/body-grotesque-large-trial-bold.453e0d88a4a657604c29.ttf",
     "static/media/body-text-large.ttf": "/LockInSchool/static/media/body-text-large.a2cb12a5050c9567647b.ttf",
     "index.html": "/LockInSchool/index.html",
     "main.42b5d23c.css.map": "/LockInSchool/static/css/main.42b5d23c.css.map",
-    "main.c656f84e.js.map": "/LockInSchool/static/js/main.c656f84e.js.map"
+    "main.d6d560c0.js.map": "/LockInSchool/static/js/main.d6d560c0.js.map"
   },
   "entrypoints": [
     "static/css/main.42b5d23c.css",
-    "static/js/main.c656f84e.js"
+    "static/js/main.d6d560c0.js"
   ]
 }
