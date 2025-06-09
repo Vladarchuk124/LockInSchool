@@ -8,6 +8,8 @@
 
 .aboutSchool h1 {
     font-size: 80px;
+    font-family: BodyGrotesqueLarge;
+    font-weight: lighter;
     margin: 0;
     margin-bottom: 120px;
 }
