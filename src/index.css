@@ -10,6 +10,10 @@ body {
   width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   cursor: default;
 }
@@ -34,10 +38,13 @@ code {
   src: url("../public/fonts/body-grotesque-large-trial-bold.ttf");
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: BodyTextLarge;
 }
 
-p, a {
+p,
+a {
   font-family: Montserrat;
 }
