@@ -6,7 +6,7 @@ function Reviews() {
         <div style={{ minHeight: "100dvh" }}>
             <div className={styles.textPart}>
                 <h1>Відгуки наших учнів</h1>
-                <img src="LockInSchool/emoji/emoji4.png" alt="emoji" className={styles.textEmoji} />
+                <img src="./emoji/emoji4.png" alt="emoji" className={styles.textEmoji} />
             </div>
             <div className={styles.upperPart}>
                 <ImageSection

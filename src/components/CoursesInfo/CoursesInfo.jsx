@@ -6,7 +6,7 @@ function CoursesCards() {
         <div className={styles.coursesCards}>
             <CourseCard 
                 planName="individual"
-                imgSource=".emoji/solo.png"
+                imgSource="./emoji/solo.png"
                 planNameText="Індивідуальні"
                 titleText="Навчання лише для тебе: фокус на ваші цілі, максимальна увага викадача."
                 item1="Заняття один на один з викладачем, ретельно підібраним спеціально для тебе."
