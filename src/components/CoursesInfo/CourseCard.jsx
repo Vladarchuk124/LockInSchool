@@ -4,7 +4,7 @@ function CourseCard({planName, imgSource, planNameText, titleText, item1, item2,
     return (
         <div className={`${styles.courseCard} ${styles[planName]}`}>
             <div className={styles.courseName}>
-                <img src={imgSource} alt="emoji"></img>
+                <div className={styles.imgPart}><img src={imgSource} alt="emoji"/></div>
                 <h1>{planNameText}</h1>
             </div>
             <h3>{titleText}</h3>
