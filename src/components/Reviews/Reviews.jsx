@@ -10,39 +10,39 @@ function Reviews() {
             </div>
             <div className={styles.upperPart}>
                 <ImageSection
-                    emojiSource="LockInSchool/emoji/starEyes.png"
-                    reviewSource="LockInSchool/Reviews/rev1.png"
+                    emojiSource="./emoji/starEyes.png"
+                    reviewSource="./Reviews/rev1.png"
                     emojiStyle="emojiTanya"
                     reviewStyle="reviewTanya"
                 />
                 <ImageSection
-                    emojiSource="LockInSchool/emoji/group.png"
-                    reviewSource="LockInSchool/Reviews/rev2.png"
+                    emojiSource="./emoji/group.png"
+                    reviewSource="./Reviews/rev2.png"
                     emojiStyle="emojiKatya"
                     reviewStyle="reviewKatya"
                 />
                 <ImageSection
-                    reviewSource="LockInSchool/Reviews/rev3.png"
+                    reviewSource="./Reviews/rev3.png"
                     emojiStyle="emojiHrist"
                     reviewStyle="reviewHrist"
                 />
             </div>
             <div className={styles.lowerPart}>
                 <ImageSection
-                    emojiSource="LockInSchool/emoji/rocket.png"
-                    reviewSource="LockInSchool/Reviews/rev4.png"
+                    emojiSource="./emoji/rocket.png"
+                    reviewSource="./Reviews/rev4.png"
                     emojiStyle="emojiLisa"
                     reviewStyle="reviewLisa"
                 />
                 <ImageSection
-                    emojiSource="LockInSchool/emoji/emoji5.png"
-                    reviewSource="LockInSchool/Reviews/rev5.png"
+                    emojiSource="./emoji/emoji5.png"
+                    reviewSource="./Reviews/rev5.png"
                     emojiStyle="emojiNastya"
                     reviewStyle="reviewNastya"
                 />
                 <ImageSection
-                    emojiSource="LockInSchool/emoji/emoji7.png"
-                    reviewSource="LockInSchool/Reviews/rev6.png"
+                    emojiSource="./emoji/emoji7.png"
+                    reviewSource="./Reviews/rev6.png"
                     emojiStyle="emojiMira"
                     reviewStyle="reviewMira"
                 />

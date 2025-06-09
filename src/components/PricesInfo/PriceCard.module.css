@@ -3,7 +3,7 @@
     background-color: white;
     border: 2px solid #3a6ef8;
     border-radius: 36px;
-    max-width: 220px;
+    min-width: 220px;
     text-align: center;
     padding: 30px 10px 20px 10px;
 }
@@ -14,13 +14,15 @@
 }
 
 .priceCard h3 {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: Montserrat;
 }
 
 .priceCard h2 {
     text-decoration: line-through;
     color: grey;
     margin: 0;
+    font-family: Montserrat;
 }
 
 .eight h2 {
@@ -30,7 +32,7 @@
 .pinImg {
     position: absolute;
     top: -20px;
-    left: 210px;
+    left: 245px;
     height: 60px;
     transform: rotate(-10deg);
 }
@@ -49,7 +51,7 @@
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1030px) {
     .priceCard {
         margin-bottom: 70px;
     }

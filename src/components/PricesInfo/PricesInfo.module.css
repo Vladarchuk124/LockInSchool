@@ -18,7 +18,7 @@
     gap: 80px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1030px) {
     .pricesCards {
         flex-direction: column;
         gap: 0;
