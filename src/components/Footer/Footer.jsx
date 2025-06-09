@@ -18,7 +18,7 @@ function Footer() {
                 ))}
             </div>
             <div className={styles.upperPart}>
-                <img src="LockInSchool/footerLogo.png" alt="footerLogo" className={styles.footerLogo}/>
+                <a href="#"><img src="LockInSchool/footerLogo.png" alt="footerLogo" className={styles.footerLogo}/></a>
                 <nav>
                     <ul>
                         <li><a href="#about">Про школу</a></li>

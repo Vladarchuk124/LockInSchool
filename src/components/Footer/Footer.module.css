@@ -71,3 +71,28 @@ footer {
     font-size: 20px;
 }
 
+
+@media screen and (max-width: 1270px) {
+    .upperPart nav ul a {
+        font-size: 18px;
+    }
+
+    .upperPart {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .upperPart nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .lowerPart {
+        padding: 25px 40px;
+    }
+    .lowerPart h1 {
+        font-size: 16px;
+    }
+}
