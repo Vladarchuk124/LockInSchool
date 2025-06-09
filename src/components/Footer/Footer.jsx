@@ -1,10 +1,10 @@
 import styles from "./Footer.module.css";
 
 const socialLists = [
-    { href: "https://t.me/arinavenher", imgSrc: "./socialNetworks/tgLogo.png" },
-    { href: "https://www.instagram.com/lockin.school?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", imgSrc: "./socialNetworks/instaLogo.png" },
-    { href: "#", imgSrc: "./socialNetworks/tiktokLogo.png" },
-    { href: "mailto:arinavenger.ua@gmail.com", imgSrc: "./socialNetworks/emailLogo.png" }
+    { href: "https://t.me/arinavenher", imgSrc: "LockInSchool/socialNetworks/tgLogo.png" },
+    { href: "https://www.instagram.com/lockin.school?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", imgSrc: "LockInSchool/socialNetworks/instaLogo.png" },
+    { href: "#", imgSrc: "LockInSchool/socialNetworks/tiktokLogo.png" },
+    { href: "mailto:arinavenger.ua@gmail.com", imgSrc: "LockInSchool/socialNetworks/emailLogo.png" }
 ];
 
 function Footer() {
@@ -18,7 +18,7 @@ function Footer() {
                 ))}
             </div>
             <div className={styles.upperPart}>
-                <img src="./footerLogo.png" alt="footerLogo" />
+                <img src="LockInSchool/footerLogo.png" alt="footerLogo" className={styles.footerLogo}/>
                 <nav>
                     <ul>
                         <li><a href="#about">Про школу</a></li>
