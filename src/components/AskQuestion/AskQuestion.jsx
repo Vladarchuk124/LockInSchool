@@ -1,7 +1,6 @@
 import { useMediaQuery } from 'react-responsive';
 
 function AskQuestion () {
-    const isTabletWidth = useMediaQuery({ maxWidth: 1350});
     const isMobileWidth = useMediaQuery({ maxWidth: 1240});
 
     const imgStyle = {
@@ -13,8 +12,8 @@ function AskQuestion () {
 
 
     return (
-        <div style={{display: "flex", justifyContent: "center", gap: isTabletWidth? "80px" : "150px", minHeight: "100dvh"}}>
-            <img src="./dog.jpg" alt="dogImage" style={imgStyle}/>
+        <div style={{display: "flex", justifyContent: "center", gap: "80px", minHeight: "100dvh"}}>
+            <img src="LockInSchool/questionPageImage.jpg" alt="questionImage" style={imgStyle}/>
             <div style={{marginTop: "100px", textAlign: isMobileWidth? "center" : ""}}>
                 <h1 style={{color: "#1b3eb5", fontSize: "55px"}}>Залишилися питання?</h1>
                 <p style={{fontSize: "25px"}}>Потрібна допомога з вибором навчання?</p>
