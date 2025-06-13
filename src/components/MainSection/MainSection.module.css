@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   color: black;
+  gap: 180px;
   min-height: 90dvh;
 }
 
@@ -14,12 +15,15 @@
 }
 
 .mainSection h1 {
-  margin-left: 40px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-family: BodyGrotesqueBold;
 }
 
 .mainSection p {
-  font-size: large;
-  margin-left: 40px;
+  font-size: 30px;
+  margin-left: 60px;
 }
 
 .mainSection img {
@@ -31,10 +35,29 @@
   .mainSection img {
     height: 600px;
   }
+
+  .mainSection h1 {
+    font-size: 40px;
+  }
+
+  .mainSection p {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1150px) {
+  .mainSection {
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 950px) {
   .mainSection {
     flex-direction: column;
+  }
+
+  .mainSection h1, .mainSection p {
+    margin-left: 0;
   }
 }

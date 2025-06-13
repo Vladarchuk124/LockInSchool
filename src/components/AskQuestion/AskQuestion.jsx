@@ -13,7 +13,7 @@ function AskQuestion() {
 
     return (
         <div style={{ display: "flex", justifyContent: "center", gap: "80px", minHeight: "100dvh" }}>
-            <img src="./questionPageImage.jpg" alt="questionImage" style={imgStyle} />
+            <img src="questionPageImage.jpg" alt="questionImage" style={imgStyle} />
             <div style={{ marginTop: "100px", textAlign: isMobileWidth ? "center" : "" }}>
                 <h1 style={{ color: "#1b3eb5", fontSize: "55px" }}>Залишилися питання?</h1>
                 <p style={{ fontSize: "25px" }}>Потрібна допомога з вибором навчання?</p>
