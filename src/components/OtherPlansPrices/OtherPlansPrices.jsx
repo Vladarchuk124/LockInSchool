@@ -14,6 +14,7 @@ function OtherPlansPrices() {
         <section style={sectionStyle}>
             <PlanNameTablet planNameText="Парні уроки" />
             <OtherPriceCard
+                lessonText="8 уроків"
                 lessonPrice="550"
                 price="4400"
             />
@@ -21,6 +22,7 @@ function OtherPlansPrices() {
             <PlanNameTablet planNameText="Групові уроки" />
 
             <OtherPriceCard
+                lessonText="1 місяць"
                 lessonPrice="450"
                 price="3600"
             />

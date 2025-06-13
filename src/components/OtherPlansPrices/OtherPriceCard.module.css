@@ -16,7 +16,7 @@
 .pinImg {
     position: absolute;
     top: -30px;
-    left: 620px;
+    right: -30px;
     height: 70px;
     transform: rotate(-10deg);
 }
