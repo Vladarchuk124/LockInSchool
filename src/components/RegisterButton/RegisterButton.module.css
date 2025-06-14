@@ -1,8 +1,9 @@
 .registerButton {
   background-color: #1b3eb5;
   color: white;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-family: BodyTextLarge;
+  font-weight: bold;
   border-radius: 36px;
   border: 2px solid #1b3eb5;
   padding: 5px 20px 5px 20px;
