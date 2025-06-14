@@ -146,3 +146,41 @@
         top: 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .reviewTanya {
+        height: 180px;
+    }
+
+    .emojiTanya {
+        height: 45px;
+    }
+
+    .reviewKatya {
+        height: 100px;
+    }
+
+    .emojiKatya {
+        height: 40px;
+        top: -5px;
+    }
+
+    .reviewHrist {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .reviewKatya {
+        height: 70px;
+    }
+
+    .emojiKatya {
+        height: 30px;
+        top: -5px;
+    }
+
+    .reviewHrist {
+        height: 115px;
+    }
+}

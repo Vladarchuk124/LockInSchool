@@ -92,3 +92,10 @@ h3 {
 .durationText h3 {
   margin: 0;
 }
+
+@media screen and (max-width: 625px) {
+  .courseCard {
+    font-size: small;
+    width: fit-content;
+  }
+}

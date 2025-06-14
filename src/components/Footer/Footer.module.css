@@ -92,7 +92,26 @@ footer {
     .lowerPart {
         padding: 25px 40px;
     }
+
     .lowerPart h1 {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .socialNetworks img {
+        height: 50px;
+    }
+
+    .footerLogo {
+        height: 40px;
+    }
+
+    .lowerPart {
+        padding: 10px;
+    }
+
+    .lowerPart h1 {
+        font-size: 13px;
     }
 }

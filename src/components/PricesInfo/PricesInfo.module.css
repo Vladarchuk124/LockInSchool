@@ -24,3 +24,9 @@
         gap: 0;
     }
 }
+
+@media screen and (max-width: 625px) {
+    .pricesSection h1 {
+        font-size: 40px;
+    }
+}

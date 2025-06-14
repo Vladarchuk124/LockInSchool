@@ -21,17 +21,23 @@
     transform: rotate(-10deg);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
     .otherPriceCard {
-        padding: 20px 20px;
-    }
-
-    .pinImg {
-        left: 560px;
+        padding: 7px 18px;
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 780px) {
+    .otherPriceCard {
+        padding: 7px;
+    }
+
+    .otherPriceCard h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
     .otherPriceCard {
         width: 225px;
         flex-direction: column;

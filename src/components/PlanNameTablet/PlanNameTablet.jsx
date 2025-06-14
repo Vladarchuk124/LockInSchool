@@ -1,7 +1,20 @@
+import { useEffect, useState } from "react";
 
-function PlanNameTablet({planNameText}) {
+function PlanNameTablet({ planNameText }) {
+    const [fontSize, setFontSize] = useState("58px");
+
+    useEffect(() => {
+        const handleResize = () => {
+            setFontSize(window.innerWidth <= 625 ? "32px" : "58px");
+        };
+
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     const tabletStyle = {
-        fontSize: "58px",
+        fontSize,
         backgroundColor: "#3a6ef8",
         color: "white",
         fontWeight: "bold",

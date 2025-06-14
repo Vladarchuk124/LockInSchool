@@ -51,6 +51,14 @@
 @media screen and (max-width: 950px) {
     .aboutSchool h1 {
         margin-top: 100px;
+        margin-bottom: 50px;
         font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .aboutSchool h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
     }
 }

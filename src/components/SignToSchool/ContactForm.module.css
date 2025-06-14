@@ -74,6 +74,7 @@
 
     .contactForm {
         max-width: fit-content;
+        min-width: 0;
     }
 
     .contactForm button {
@@ -84,5 +85,23 @@
         margin-bottom: 20px;
         align-items: center;
         font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .contactForm button {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .contactForm label {
+        margin-bottom: 20px;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .contactForm label input {
+        padding: 5px;
+        width: 250px;
     }
 }
