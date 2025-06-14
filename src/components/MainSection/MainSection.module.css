@@ -57,7 +57,13 @@
     flex-direction: column;
   }
 
-  .mainSection h1, .mainSection p {
+  .mainSection h1,
+  .mainSection p {
     margin-left: 0;
   }
+
+  .mainSection img {
+    height: 590px;
+  }
+
 }

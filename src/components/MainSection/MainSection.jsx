@@ -12,7 +12,7 @@ function MainSection() {
                     Нам важливо, аби уроки проходили в комфортній атмосфері, були якісно наповнені та ефективні.
                 </p>
             </div>
-            <img src="mainPageImage.jpg" alt="mainPageImage"/> 
+            <img src="LockInSchool/mainPageImage.jpg" alt="mainPageImage"/> 
         </section>
     );
 }
