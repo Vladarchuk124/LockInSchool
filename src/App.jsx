@@ -23,6 +23,7 @@ function App() {
       <div id="reviews"><Reviews /></div>
       <div id="faq"><FAQ /></div>
       <AskQuestion />
+      <Footer />
     </>
   );
 }
