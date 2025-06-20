@@ -21,7 +21,7 @@ function App() {
       <OtherPlansPrices />
       <div id="signpage"><SignToSchool /></div>
       <div id="reviews"><Reviews /></div>
-      <div id="faq"><FAQ /></div>
+      <div id="faq"></div>
       <AskQuestion />
       <Footer />
     </>
