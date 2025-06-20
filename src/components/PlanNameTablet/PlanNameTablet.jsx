@@ -16,11 +16,13 @@ function PlanNameTablet({ planNameText }) {
     const tabletStyle = {
         fontSize,
         backgroundColor: "#3a6ef8",
+        fontFamily: "Montserrat",
         color: "white",
         fontWeight: "bold",
         width: "100%",
         textAlign: "center",
         marginBottom: "80px",
+        paddingBottom: "5px",
     }
 
     return (
