@@ -47,7 +47,7 @@ function CoursesCards() {
 function CoursesInfo() {
     return (
         <section className={styles.coursesInfo}>
-            <h1 className={styles.title}>Наші курси</h1>
+            <h1 className={styles.title}>Власні курси</h1>
             <CoursesCards />
         </section>
     );

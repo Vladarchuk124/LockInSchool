@@ -11,6 +11,7 @@
   font-size: 75px;
   font-family: BodyGrotesqueLarge;
   margin-top: 0;
+  text-align: center;
 }
 
 .coursesCards {
@@ -25,6 +26,13 @@
     flex-direction: column;
   }  
 }
+
+@media screen and (max-width: 720px) {
+  .title {
+    font-size: 55px;
+  }
+}
+
 
 @media screen and (max-width: 625px) {
   .title {
