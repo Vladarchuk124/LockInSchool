@@ -11,14 +11,13 @@
     font-family: BodyGrotesqueLarge;
     font-weight: lighter;
     margin: 0;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 .description {
     display: flex;
     flex-direction: row;
     color: white;
-    margin-bottom: 100px;
     font-size: 18px;
 }
 
@@ -40,6 +39,9 @@
 }
 
 @media screen and (max-width: 1315px) {
+    .description {
+        margin-bottom: 100px;
+    }
 
     .rightSide,
     .leftSide {
@@ -51,7 +53,7 @@
 @media screen and (max-width: 950px) {
     .aboutSchool h1 {
         margin-top: 100px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         font-size: 60px;
     }
 }
