@@ -41,9 +41,16 @@
     }
 
     .textEmoji {
-        height: 180px;
+        height: 170px;
         top: -40px;
         transform: translateX(430px) rotate(12deg);
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .textEmoji {
+        height: 160px;
+        transform: translateX(430px) rotate(0deg);
     }
 }
 
@@ -51,16 +58,25 @@
     .textEmoji {
         display: none;
     }
+
     .textPart h1 {
         font-size: 40px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 875px) {
     .lowerPart {
         display: none;
     }
+}
 
+@media screen and (max-width: 810px) {
+    .upperPart {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .textPart h1 {
         font-size: 20px;
     }
