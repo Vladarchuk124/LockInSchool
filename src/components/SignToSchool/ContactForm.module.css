@@ -106,13 +106,14 @@
 
     .contactForm label input {
         padding: 10px;
-        margin-top: 1px;
+        margin-top: 4px;
         border-radius: 0;
         width: 250px;
         font-size: 18px;
     }
 
     .errorMsg {
-        top: 55px;
+        font-size: 17px;
+        top: 90px;
     }
 }
